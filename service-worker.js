@@ -1,15 +1,17 @@
 // ═══════════════════════════════════════════════════
 //  CotizaPro PWA — Service Worker
-//  Versión: 2.1
+//  Versión: 2.2
 // ═══════════════════════════════════════════════════
 
-const CACHE_NAME = 'cotizapro-v2';
+const CACHE_NAME = 'cotizapro-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './assets/logo.png',
-  './assets/firma.png'
+  './assets/firma.png',
+  './assets/icon-192.png',
+  './assets/icon-512.png'
 ];
 
 // ── Instalación: precachea los archivos core ──
